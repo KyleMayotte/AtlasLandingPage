@@ -162,7 +162,7 @@ const AtlasLanding = () => {
       </motion.div>
 
       {/* HERO SECTION */}
-      <section className="relative z-10 flex flex-col items-center justify-center min-h-[85vh] px-4 text-center max-w-5xl mx-auto">
+      <section className="relative z-10 flex flex-col items-center justify-center min-h-[85vh] px-4 pt-24 md:pt-0 text-center max-w-5xl mx-auto">
         
         {/* Robot Container */}
         <motion.div 
