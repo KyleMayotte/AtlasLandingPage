@@ -147,7 +147,7 @@ const AtlasLanding = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="fixed top-6 left-6 z-50 backdrop-blur-md bg-white/5 border border-white/10 rounded-full pl-2 pr-6 py-2 flex items-center gap-3 shadow-2xl hover:border-blue-500/30 transition-colors"
+        className="fixed top-4 left-1/2 -translate-x-1/2 md:top-6 md:left-6 md:translate-x-0 z-50 backdrop-blur-md bg-white/5 border border-white/10 rounded-full pl-2 pr-6 py-2 flex items-center gap-3 shadow-2xl hover:border-blue-500/30 transition-colors"
       >
         <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold text-black text-sm">A</div>
         <span className="text-xs font-bold tracking-[0.2em] text-slate-300">ATLAS</span>
@@ -298,7 +298,7 @@ const AtlasLanding = () => {
       {/* FEATURES GRID */}
       <section className="relative z-10 py-32 px-4 max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">Built for the <span className="text-blue-500">Serious Athlete</span></h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">Built for the <span className="text-blue-500">Serious Lifters</span></h2>
           <p className="text-slate-400 max-w-2xl mx-auto">Proven progressive overload features to optimize your strength and muscle growth.</p>
         </div>
 
@@ -312,7 +312,7 @@ const AtlasLanding = () => {
             {
               icon: <TrendingUp className="w-8 h-8 text-blue-400" />,
               title: "Plateau Detection",
-              desc: "Atlas analyzes your volume and intensity trends to flag stalls before they happen, suggesting specific protocol changes."
+              desc: "Atlas analyzes your volume and intensity trends to flag stalls when they happen, suggesting specific protocol changes."
             },
             {
               icon: <ShieldCheck className="w-8 h-8 text-blue-400" />,
@@ -353,7 +353,7 @@ const AtlasLanding = () => {
               ))}
             </div>
             <p className="text-xl md:text-2xl font-medium mb-8 italic">
-              "Yes I built the app. Yes I am giving myself 5 stars. I spent weeks obssessing over Atlas's progressive overload algorithm to garauntee muscle growth and remove guesswork from your lifts. If you want to grow, this app will push you farther than you could go alone."
+              "I spent weeks obsessing over Atlas's progressive overload algorithm to mathematically enhance muscle growth and remove guesswork from your lifts. If you want to grow, this app will push you farther than you could go alone."
             </p>
             <div className="flex items-center justify-center gap-4">
               <div className="w-12 h-12 bg-slate-200 rounded-full overflow-hidden">
