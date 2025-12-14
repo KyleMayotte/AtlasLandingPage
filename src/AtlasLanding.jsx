@@ -147,7 +147,7 @@ const AtlasLanding = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="fixed top-4 left-1/2 -translate-x-1/2 md:top-6 md:left-6 md:translate-x-0 z-50 backdrop-blur-md bg-white/5 border border-white/10 rounded-full pl-2 pr-6 py-2 flex items-center gap-3 shadow-2xl hover:border-blue-500/30 transition-colors"
+        className="fixed top-4 left-4 md:top-6 md:left-6 z-50 backdrop-blur-md bg-white/5 border border-white/10 rounded-full pl-2 pr-6 py-2 flex items-center gap-3 shadow-2xl hover:border-blue-500/30 transition-colors scale-75 origin-top-left md:scale-100"
       >
         <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center font-bold text-black text-sm">A</div>
         <span className="text-xs font-bold tracking-[0.2em] text-slate-300">ATLAS</span>
@@ -182,7 +182,7 @@ const AtlasLanding = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight"
         >
-          The <span className="text-blue-500 glow-text">AI Coach</span> That Tells You <br className="hidden md:block" /> Exactly How To Progress.
+          The <span className="text-blue-500 glow-text">AI Coach</span> That Tells You <br className="hidden md:block" /> How To Progress.
         </motion.h1>
 
         {/* Subheadline */}
